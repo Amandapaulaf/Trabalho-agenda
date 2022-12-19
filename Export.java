@@ -37,7 +37,7 @@ public class Export {
 		ArrayList<Data> a= data.listar();
 		String aux= new String();
 		for(Data b: a) {
-			aux= b.getDia()+"/"+b.getMes()+"/"+b.getAno()+"7:00;"+b.getSete()+";"+"8:00;"+b.getOito()+";"+
+			aux= b.getDia()+"/"+b.getMes()+"/"+b.getAno()+";"+"7:00;"+b.getSete()+";"+"8:00;"+b.getOito()+";"+
 					"9:00;"+b.getNove()+";"+"10:00;"+b.getDez()+";"+"11:00;"+b.getOnze()+";"+"12:00;"+b.getDoze()+";"+"13:00;"+b.getTreze()+";"+"14:00;"+b.getQuartorze()+";"+"15:00;"+b.getQuinze()+";"+"16:00;"+b.getDezesseis()+";"+"17:00;"+b.getDezesete()+";"+"18:00;"+b.getDezoito()+"/n";
 		}
 		return aux;
