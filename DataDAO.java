@@ -144,7 +144,6 @@ if(contador==0) {
 	resul=false;}
 else {
 	resul=true;}
-System.out.println(resul);
 return resul;
 }
 
